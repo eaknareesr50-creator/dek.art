@@ -39,7 +39,8 @@ function Header() {
   }, [location.pathname]);
 
   return (
-    <header className="site-header">
+    <>
+     <header className="site-header">
       <div className="container header-inner">
         <Brand />
         <nav className="nav" aria-label="เมนูหลัก">
